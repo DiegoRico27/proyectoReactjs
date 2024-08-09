@@ -1,0 +1,52 @@
+/* Contenedor general de los servicios */
+.services-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Grid para las tarjetas de servicio */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Tarjeta de servicio */
+.service-card {
+  background-color: #f9f9f9; /* Color de fondo claro para un contraste sutil */
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada para más profundidad */
+  text-align: center;
+  padding: 20px; /* Aumento del padding para más espacio interno */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para efectos de hover */
+}
+
+/* Efecto al pasar el ratón sobre la tarjeta */
+.service-card:hover {
+  transform: translateY(-10px); /* Eleva la tarjeta al pasar el ratón */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el ratón */
+}
+
+/* Imagen del servicio */
+.service-image {
+  max-width: 200px; /* Limita el ancho de la imagen al ancho del contenedor */
+  height: 200px; /* Establece una altura fija para la imagen */
+  object-fit: cover; /* Asegura que la imagen mantenga sus proporciones al recortarla */
+  border-radius: 8px;
+  margin-bottom: 15px; /* Espacio debajo de la imagen */
+}
+
+/* Título del servicio */
+h4 {
+  color: #FF4081; /* Título con color rosa vibrante */
+  margin-top: 10px;
+  font-size: 1.2rem; /* Tamaño del texto del título */
+}
+
+/* Descripción y precio del servicio */
+p {
+  color: #555; /* Color gris oscuro para mejor legibilidad */
+  margin-top: 5px;
+  font-size: 0.9rem; /* Tamaño de texto ajustado para descripción */
+}

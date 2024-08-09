@@ -1,0 +1,60 @@
+/* Estilos generales para la sección de registro */
+#register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que el formulario esté centrado verticalmente */
+    text-align: center;
+}
+
+/* Título del formulario */
+#register h2 {
+    margin-bottom: 20px;
+    color: #FF4081; /* Color rosa vibrante */
+    font-size: 1.8rem;
+}
+
+/* Estilos para el formulario */
+#register-form {
+    width: 70%; /* Ancho del 70% */
+    max-width: 400px; /* Ancho máximo para que no se extienda demasiado en pantallas grandes */
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para las etiquetas y campos de entrada */
+#register-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    text-align: left; /* Alineación izquierda */
+}
+
+#register-form input {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+/* Estilos para el botón de registro */
+#register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF4081; /* Fondo rosa vibrante */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#register-form button:hover {
+    background-color: #e53670; /* Oscurece el fondo del botón al pasar el ratón */
+}
